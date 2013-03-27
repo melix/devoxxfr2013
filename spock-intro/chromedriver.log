@@ -1,0 +1,1079 @@
+[0.001][INFO]:      ChromeDriver 26.0.1383.0 /home/cchampeau/TOOLS/selenium/chromedriver
+[0.572][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.572][INFO]:      Launching chrome: /opt/google/chrome/google-chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --password-store=basic --ignore-certificate-errors about:blank
+[0.878][INFO]:      Connected to Chrome successfully. Version: 25.0.1364.172
+[0.997][FINE]:      Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77)
+[0.998][FINE]:      Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "linux",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "25.0.1364.172",
+      "webStorageEnabled": true
+   }
+}
+
+[1.014][FINE]:      Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/url) with params {
+   "url": "http://groovy.codehaus.org/"
+}
+
+[1.014][FINER]:     Waiting for all views to stop loading...
+[1.014][FINER]:     Done waiting for all views to stop loading
+[41.531][FINER]:    Waiting for all views to stop loading...
+[41.536][FINER]:    Done waiting for all views to stop loading
+[41.536][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/url) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[41.633][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/title)
+[41.634][FINER]:    Waiting for all views to stop loading...
+[41.634][FINER]:    Done waiting for all views to stop loading
+[41.636][FINER]:    Waiting for all views to stop loading...
+[41.637][FINER]:    Done waiting for all views to stop loading
+[41.637][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/title) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "Groovy - Home"
+}
+
+[41.659][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element) with params {
+   "using": "tag name",
+   "value": "html"
+}
+
+[41.660][FINER]:    Waiting for all views to stop loading...
+[41.660][FINER]:    Done waiting for all views to stop loading
+[41.686][FINER]:    Waiting for all views to stop loading...
+[41.686][FINER]:    Done waiting for all views to stop loading
+[41.686][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364401730912"
+   }
+}
+
+[41.776][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730912/elements) with params {
+   "id": ":wdc:1364401730912",
+   "using": "css selector",
+   "value": "a"
+}
+
+[41.776][FINER]:    Waiting for all views to stop loading...
+[41.777][FINER]:    Done waiting for all views to stop loading
+[41.802][FINER]:    Waiting for all views to stop loading...
+[41.802][FINER]:    Done waiting for all views to stop loading
+[41.802][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730912/elements) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364401730913"
+   }, {
+      "ELEMENT": ":wdc:1364401730914"
+   }, {
+      "ELEMENT": ":wdc:1364401730915"
+   }, {
+      "ELEMENT": ":wdc:1364401730916"
+   }, {
+      "ELEMENT": ":wdc:1364401730917"
+   }, {
+      "ELEMENT": ":wdc:1364401730918"
+   }, {
+      "ELEMENT": ":wdc:1364401730919"
+   }, {
+      "ELEMENT": ":wdc:1364401730920"
+   }, {
+      "ELEMENT": ":wdc:1364401730921"
+   }, {
+      "ELEMENT": ":wdc:1364401730922"
+   }, {
+      "ELEMENT": ":wdc:1364401730923"
+   }, {
+      "ELEMENT": ":wdc:1364401730924"
+   }, {
+      "ELEMENT": ":wdc:1364401730925"
+   }, {
+      "ELEMENT": ":wdc:1364401730926"
+   }, {
+      "ELEMENT": ":wdc:1364401730927"
+   }, {
+      "ELEMENT": ":wdc:1364401730928"
+   }, {
+      "ELEMENT": ":wdc:1364401730929"
+   }, {
+      "ELEMENT": ":wdc:1364401730930"
+   }, {
+      "ELEMENT": ":wdc:1364401730931"
+   }, {
+      "ELEMENT": ":wdc:1364401730932"
+   }, {
+      "ELEMENT": ":wdc:1364401730933"
+   }, {
+      "ELEMENT": ":wdc:1364401730934"
+   }, {
+      "ELEMENT": ":wdc:1364401730935"
+   }, {
+      "ELEMENT": ":wdc:1364401730936"
+   }, {
+      "ELEMENT": ":wdc:1364401730937"
+   }, {
+      "ELEMENT": ":wdc:1364401730938"
+   }, {
+      "ELEMENT": ":wdc:1364401730939"
+   }, {
+      "ELEMENT": ":wdc:1364401730940"
+   }, {
+      "ELEMENT": ":wdc:1364401730941"
+   }, {
+      "ELEMENT": ":wdc:1364401730942"
+   }, {
+      "ELEMENT": ":wdc:1364401730943"
+   }, {
+      "ELEMENT": ":wdc:1364401730944"
+   }, {
+      "ELEMENT": ":wdc:1364401730945"
+   }, {
+      "ELEMENT": ":wdc:1364401730946"
+   }, {
+      "ELEMENT": ":wdc:1364401730947"
+   }, {
+      "ELEMENT": ":wdc:1364401730948"
+   }, {
+      "ELEMENT": ":wdc:1364401730949"
+   }, {
+      "ELEMENT": ":wdc:1364401730950"
+   }, {
+      "ELEMENT": ":wdc:1364401730951"
+   }, {
+      "ELEMENT": ":wdc:1364401730952"
+   }, {
+      "ELEMENT": ":wdc:1364401730953"
+   }, {
+      "ELEMENT": ":wdc:1364401730954"
+   }, {
+      "ELEMENT": ":wdc:1364401730955"
+   }, {
+      "ELEMENT": ":wdc:1364401730956"
+   }, {
+      "ELEMENT": ":wdc:1364401730957"
+   }, {
+      "ELEMENT": ":wdc:1364401730958"
+   }, {
+      "ELEMENT": ":wdc:1364401730959"
+   }, {
+      "ELEMENT": ":wdc:1364401730960"
+   }, {
+      "ELEMENT": ":wdc:1364401730961"
+   }, {
+      "ELEMENT": ":wdc:1364401730962"
+   }, {
+      "ELEMENT": ":wdc:1364401730963"
+   }, {
+      "ELEMENT": ":wdc:1364401730964"
+   }, {
+      "ELEMENT": ":wdc:1364401730965"
+   }, {
+      "ELEMENT": ":wdc:1364401730966"
+   }, {
+      "ELEMENT": ":wdc:1364401730967"
+   }, {
+      "ELEMENT": ":wdc:1364401730968"
+   }, {
+      "ELEMENT": ":wdc:1364401730969"
+   }, {
+      "ELEMENT": ":wdc:1364401730970"
+   }, {
+      "ELEMENT": ":wdc:1364401730971"
+   }, {
+      "ELEMENT": ":wdc:1364401730972"
+   }, {
+      "ELEMENT": ":wdc:1364401730973"
+   }, {
+      "ELEMENT": ":wdc:1364401730974"
+   }, {
+      "ELEMENT": ":wdc:1364401730975"
+   }, {
+      "ELEMENT": ":wdc:1364401730976"
+   }, {
+      "ELEMENT": ":wdc:1364401730977"
+   }, {
+      "ELEMENT": ":wdc:1364401730978"
+   }, {
+      "ELEMENT": ":wdc:1364401730979"
+   }, {
+      "ELEMENT": ":wdc:1364401730980"
+   }, {
+      "ELEMENT": ":wdc:1364401730981"
+   } ]
+}
+
+[41.825][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730913/attribute/href)
+[41.825][FINER]:    Waiting for all views to stop loading...
+[41.826][FINER]:    Done waiting for all views to stop loading
+[41.846][FINER]:    Waiting for all views to stop loading...
+[41.846][FINER]:    Done waiting for all views to stop loading
+[41.847][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730913/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "javascript:void(0)"
+}
+
+[41.859][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730914/attribute/href)
+[41.859][FINER]:    Waiting for all views to stop loading...
+[41.860][FINER]:    Done waiting for all views to stop loading
+[41.885][FINER]:    Waiting for all views to stop loading...
+[41.886][FINER]:    Done waiting for all views to stop loading
+[41.886][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730914/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "javascript:void(0)"
+}
+
+[41.892][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730915/attribute/href)
+[41.892][FINER]:    Waiting for all views to stop loading...
+[41.892][FINER]:    Done waiting for all views to stop loading
+[41.907][FINER]:    Waiting for all views to stop loading...
+[41.907][FINER]:    Done waiting for all views to stop loading
+[41.907][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730915/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Download?nc"
+}
+
+[41.910][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730916/attribute/href)
+[41.910][FINER]:    Waiting for all views to stop loading...
+[41.910][FINER]:    Done waiting for all views to stop loading
+[41.922][FINER]:    Waiting for all views to stop loading...
+[41.922][FINER]:    Done waiting for all views to stop loading
+[41.922][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730916/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Download?nc"
+}
+
+[41.929][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730917/attribute/href)
+[41.929][FINER]:    Waiting for all views to stop loading...
+[41.930][FINER]:    Done waiting for all views to stop loading
+[41.947][FINER]:    Waiting for all views to stop loading...
+[41.948][FINER]:    Done waiting for all views to stop loading
+[41.948][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730917/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/"
+}
+
+[41.953][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730918/attribute/href)
+[41.953][FINER]:    Waiting for all views to stop loading...
+[41.954][FINER]:    Done waiting for all views to stop loading
+[41.980][FINER]:    Waiting for all views to stop loading...
+[41.980][FINER]:    Done waiting for all views to stop loading
+[41.981][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730918/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/#"
+}
+
+[41.983][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730919/attribute/href)
+[41.983][FINER]:    Waiting for all views to stop loading...
+[41.984][FINER]:    Done waiting for all views to stop loading
+[42.007][FINER]:    Waiting for all views to stop loading...
+[42.008][FINER]:    Done waiting for all views to stop loading
+[42.008][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730919/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Documentation"
+}
+
+[42.012][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730920/attribute/href)
+[42.012][FINER]:    Waiting for all views to stop loading...
+[42.013][FINER]:    Done waiting for all views to stop loading
+[42.028][FINER]:    Waiting for all views to stop loading...
+[42.028][FINER]:    Done waiting for all views to stop loading
+[42.028][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730920/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Installing+Groovy"
+}
+
+[42.035][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730921/attribute/href)
+[42.035][FINER]:    Waiting for all views to stop loading...
+[42.035][FINER]:    Done waiting for all views to stop loading
+[42.056][FINER]:    Waiting for all views to stop loading...
+[42.056][FINER]:    Done waiting for all views to stop loading
+[42.056][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730921/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Getting+Started+Guide"
+}
+
+[42.063][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730922/attribute/href)
+[42.063][FINER]:    Waiting for all views to stop loading...
+[42.063][FINER]:    Done waiting for all views to stop loading
+[42.079][FINER]:    Waiting for all views to stop loading...
+[42.080][FINER]:    Done waiting for all views to stop loading
+[42.080][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730922/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/User+Guide"
+}
+
+[42.085][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730923/attribute/href)
+[42.085][FINER]:    Waiting for all views to stop loading...
+[42.086][FINER]:    Done waiting for all views to stop loading
+[42.100][FINER]:    Waiting for all views to stop loading...
+[42.101][FINER]:    Done waiting for all views to stop loading
+[42.101][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730923/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Testing+Guide"
+}
+
+[42.108][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730924/attribute/href)
+[42.108][FINER]:    Waiting for all views to stop loading...
+[42.109][FINER]:    Done waiting for all views to stop loading
+[42.127][FINER]:    Waiting for all views to stop loading...
+[42.127][FINER]:    Done waiting for all views to stop loading
+[42.127][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730924/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Advanced+Usage+Guide"
+}
+
+[42.132][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730925/attribute/href)
+[42.132][FINER]:    Waiting for all views to stop loading...
+[42.132][FINER]:    Done waiting for all views to stop loading
+[42.148][FINER]:    Waiting for all views to stop loading...
+[42.149][FINER]:    Done waiting for all views to stop loading
+[42.149][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730925/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Developer+Guide"
+}
+
+[42.155][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730926/attribute/href)
+[42.155][FINER]:    Waiting for all views to stop loading...
+[42.156][FINER]:    Done waiting for all views to stop loading
+[42.176][FINER]:    Waiting for all views to stop loading...
+[42.176][FINER]:    Done waiting for all views to stop loading
+[42.176][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730926/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Cookbook+Examples"
+}
+
+[42.179][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730927/attribute/href)
+[42.179][FINER]:    Waiting for all views to stop loading...
+[42.179][FINER]:    Done waiting for all views to stop loading
+[42.194][FINER]:    Waiting for all views to stop loading...
+[42.195][FINER]:    Done waiting for all views to stop loading
+[42.195][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730927/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/gapi/"
+}
+
+[42.201][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730928/attribute/href)
+[42.201][FINER]:    Waiting for all views to stop loading...
+[42.201][FINER]:    Done waiting for all views to stop loading
+[42.221][FINER]:    Waiting for all views to stop loading...
+[42.221][FINER]:    Done waiting for all views to stop loading
+[42.221][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730928/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/groovy-jdk/"
+}
+
+[42.224][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730929/attribute/href)
+[42.224][FINER]:    Waiting for all views to stop loading...
+[42.224][FINER]:    Done waiting for all views to stop loading
+[42.247][FINER]:    Waiting for all views to stop loading...
+[42.248][FINER]:    Done waiting for all views to stop loading
+[42.248][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730929/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/#"
+}
+
+[42.251][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730930/attribute/href)
+[42.251][FINER]:    Waiting for all views to stop loading...
+[42.252][FINER]:    Done waiting for all views to stop loading
+[42.271][FINER]:    Waiting for all views to stop loading...
+[42.272][FINER]:    Done waiting for all views to stop loading
+[42.272][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730930/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Community+and+Support"
+}
+
+[42.278][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730931/attribute/href)
+[42.278][FINER]:    Waiting for all views to stop loading...
+[42.278][FINER]:    Done waiting for all views to stop loading
+[42.291][FINER]:    Waiting for all views to stop loading...
+[42.291][FINER]:    Done waiting for all views to stop loading
+[42.291][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730931/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Git"
+}
+
+[42.295][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730932/attribute/href)
+[42.295][FINER]:    Waiting for all views to stop loading...
+[42.295][FINER]:    Done waiting for all views to stop loading
+[42.310][FINER]:    Waiting for all views to stop loading...
+[42.311][FINER]:    Done waiting for all views to stop loading
+[42.311][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730932/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Mailing+Lists"
+}
+
+[42.313][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730933/attribute/href)
+[42.313][FINER]:    Waiting for all views to stop loading...
+[42.313][FINER]:    Done waiting for all views to stop loading
+[42.326][FINER]:    Waiting for all views to stop loading...
+[42.327][FINER]:    Done waiting for all views to stop loading
+[42.327][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730933/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://jira.codehaus.org/secure/BrowseProject.jspa?id=10242"
+}
+
+[42.329][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730934/attribute/href)
+[42.330][FINER]:    Waiting for all views to stop loading...
+[42.330][FINER]:    Done waiting for all views to stop loading
+[42.346][FINER]:    Waiting for all views to stop loading...
+[42.347][FINER]:    Done waiting for all views to stop loading
+[42.347][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730934/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://docs.codehaus.org/display/GROOVY/Home"
+}
+
+[42.353][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730935/attribute/href)
+[42.353][FINER]:    Waiting for all views to stop loading...
+[42.353][FINER]:    Done waiting for all views to stop loading
+[42.374][FINER]:    Waiting for all views to stop loading...
+[42.375][FINER]:    Done waiting for all views to stop loading
+[42.375][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730935/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Contributing"
+}
+
+[42.377][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730936/attribute/href)
+[42.377][FINER]:    Waiting for all views to stop loading...
+[42.378][FINER]:    Done waiting for all views to stop loading
+[42.394][FINER]:    Waiting for all views to stop loading...
+[42.395][FINER]:    Done waiting for all views to stop loading
+[42.395][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730936/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Related+Projects"
+}
+
+[42.399][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730937/attribute/href)
+[42.399][FINER]:    Waiting for all views to stop loading...
+[42.400][FINER]:    Done waiting for all views to stop loading
+[42.414][FINER]:    Waiting for all views to stop loading...
+[42.415][FINER]:    Done waiting for all views to stop loading
+[42.415][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730937/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Modules"
+}
+
+[42.417][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730938/attribute/href)
+[42.418][FINER]:    Waiting for all views to stop loading...
+[42.418][FINER]:    Done waiting for all views to stop loading
+[42.436][FINER]:    Waiting for all views to stop loading...
+[42.437][FINER]:    Done waiting for all views to stop loading
+[42.437][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730938/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/User+Groups"
+}
+
+[42.444][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730939/attribute/href)
+[42.444][FINER]:    Waiting for all views to stop loading...
+[42.445][FINER]:    Done waiting for all views to stop loading
+[42.474][FINER]:    Waiting for all views to stop loading...
+[42.474][FINER]:    Done waiting for all views to stop loading
+[42.474][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730939/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/#"
+}
+
+[42.476][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730940/attribute/href)
+[42.476][FINER]:    Waiting for all views to stop loading...
+[42.476][FINER]:    Done waiting for all views to stop loading
+[42.492][FINER]:    Waiting for all views to stop loading...
+[42.492][FINER]:    Done waiting for all views to stop loading
+[42.492][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730940/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Eclipse+Plugin"
+}
+
+[42.500][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730941/attribute/href)
+[42.500][FINER]:    Waiting for all views to stop loading...
+[42.500][FINER]:    Done waiting for all views to stop loading
+[42.524][FINER]:    Waiting for all views to stop loading...
+[42.525][FINER]:    Done waiting for all views to stop loading
+[42.525][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730941/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/IntelliJ+IDEA+Plugin+by+JetBrains"
+}
+
+[42.527][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730942/attribute/href)
+[42.527][FINER]:    Waiting for all views to stop loading...
+[42.528][FINER]:    Done waiting for all views to stop loading
+[42.547][FINER]:    Waiting for all views to stop loading...
+[42.548][FINER]:    Done waiting for all views to stop loading
+[42.548][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730942/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/IDE+Support"
+}
+
+[42.550][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730943/attribute/href)
+[42.550][FINER]:    Waiting for all views to stop loading...
+[42.550][FINER]:    Done waiting for all views to stop loading
+[42.565][FINER]:    Waiting for all views to stop loading...
+[42.566][FINER]:    Done waiting for all views to stop loading
+[42.566][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730943/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Download"
+}
+
+[42.571][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730944/attribute/href)
+[42.571][FINER]:    Waiting for all views to stop loading...
+[42.571][FINER]:    Done waiting for all views to stop loading
+[42.584][FINER]:    Waiting for all views to stop loading...
+[42.585][FINER]:    Done waiting for all views to stop loading
+[42.585][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730944/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Project+Information"
+}
+
+[42.588][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730945/attribute/href)
+[42.588][FINER]:    Waiting for all views to stop loading...
+[42.588][FINER]:    Done waiting for all views to stop loading
+[42.602][FINER]:    Waiting for all views to stop loading...
+[42.603][FINER]:    Done waiting for all views to stop loading
+[42.603][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730945/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://docs.codehaus.org/display/GROOVY/Home?showComments=true%20showCommentArea=true#addcomment"
+}
+
+[42.607][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730946/attribute/href)
+[42.607][FINER]:    Waiting for all views to stop loading...
+[42.607][FINER]:    Done waiting for all views to stop loading
+[42.647][FINER]:    Waiting for all views to stop loading...
+[42.648][FINER]:    Done waiting for all views to stop loading
+[42.648][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730946/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://docs.codehaus.org/display/GROOVY/Home"
+}
+
+[42.656][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730947/attribute/href)
+[42.656][FINER]:    Waiting for all views to stop loading...
+[42.656][FINER]:    Done waiting for all views to stop loading
+[42.680][FINER]:    Waiting for all views to stop loading...
+[42.680][FINER]:    Done waiting for all views to stop loading
+[42.680][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730947/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://docs.codehaus.org/pages/editpage.action?spaceKey=GROOVY&title=Home"
+}
+
+[42.683][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730948/attribute/href)
+[42.683][FINER]:    Waiting for all views to stop loading...
+[42.683][FINER]:    Done waiting for all views to stop loading
+[42.697][FINER]:    Waiting for all views to stop loading...
+[42.698][FINER]:    Done waiting for all views to stop loading
+[42.698][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730948/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Home?print=1"
+}
+
+[42.705][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730949/attribute/href)
+[42.705][FINER]:    Waiting for all views to stop loading...
+[42.705][FINER]:    Done waiting for all views to stop loading
+[42.728][FINER]:    Waiting for all views to stop loading...
+[42.729][FINER]:    Done waiting for all views to stop loading
+[42.729][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730949/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": null
+}
+
+[42.736][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730950/attribute/href)
+[42.736][FINER]:    Waiting for all views to stop loading...
+[42.736][FINER]:    Done waiting for all views to stop loading
+[42.750][FINER]:    Waiting for all views to stop loading...
+[42.750][FINER]:    Done waiting for all views to stop loading
+[42.750][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730950/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Download"
+}
+
+[42.757][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730951/attribute/href)
+[42.757][FINER]:    Waiting for all views to stop loading...
+[42.757][FINER]:    Done waiting for all views to stop loading
+[42.777][FINER]:    Waiting for all views to stop loading...
+[42.777][FINER]:    Done waiting for all views to stop loading
+[42.777][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730951/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Groovy+2.1+release+notes"
+}
+
+[42.782][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730952/attribute/href)
+[42.782][FINER]:    Waiting for all views to stop loading...
+[42.782][FINER]:    Done waiting for all views to stop loading
+[42.797][FINER]:    Waiting for all views to stop loading...
+[42.797][FINER]:    Done waiting for all views to stop loading
+[42.798][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730952/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/News"
+}
+
+[42.801][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730953/attribute/href)
+[42.801][FINER]:    Waiting for all views to stop loading...
+[42.801][FINER]:    Done waiting for all views to stop loading
+[42.813][FINER]:    Waiting for all views to stop loading...
+[42.813][FINER]:    Done waiting for all views to stop loading
+[42.813][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730953/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://docs.codehaus.org/display/~glaforge"
+}
+
+[42.817][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730954/attribute/href)
+[42.817][FINER]:    Waiting for all views to stop loading...
+[42.817][FINER]:    Done waiting for all views to stop loading
+[42.836][FINER]:    Waiting for all views to stop loading...
+[42.836][FINER]:    Done waiting for all views to stop loading
+[42.836][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730954/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://docs.codehaus.org/display/~glaforge"
+}
+
+[42.839][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730955/attribute/href)
+[42.839][FINER]:    Waiting for all views to stop loading...
+[42.839][FINER]:    Done waiting for all views to stop loading
+[42.853][FINER]:    Waiting for all views to stop loading...
+[42.853][FINER]:    Done waiting for all views to stop loading
+[42.853][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730955/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://docs.codehaus.org/display/GROOVY/2013/02/15/Groovy+1.8.9%2C+2.0.7+and+2.1.1+released"
+}
+
+[42.856][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730956/attribute/href)
+[42.856][FINER]:    Waiting for all views to stop loading...
+[42.857][FINER]:    Done waiting for all views to stop loading
+[42.869][FINER]:    Waiting for all views to stop loading...
+[42.870][FINER]:    Done waiting for all views to stop loading
+[42.870][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730956/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://jira.codehaus.org/secure/ReleaseNote.jspa?projectId=10242&version=18778"
+}
+
+[42.873][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730957/attribute/href)
+[42.873][FINER]:    Waiting for all views to stop loading...
+[42.873][FINER]:    Done waiting for all views to stop loading
+[42.885][FINER]:    Waiting for all views to stop loading...
+[42.885][FINER]:    Done waiting for all views to stop loading
+[42.885][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730957/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://jira.codehaus.org/secure/ReleaseNote.jspa?projectId=10242&version=19028"
+}
+
+[42.889][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730958/attribute/href)
+[42.889][FINER]:    Waiting for all views to stop loading...
+[42.889][FINER]:    Done waiting for all views to stop loading
+[42.905][FINER]:    Waiting for all views to stop loading...
+[42.905][FINER]:    Done waiting for all views to stop loading
+[42.905][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730958/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://jira.codehaus.org/secure/ReleaseNote.jspa?projectId=10242&version=18990"
+}
+
+[42.911][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730959/attribute/href)
+[42.911][FINER]:    Waiting for all views to stop loading...
+[42.912][FINER]:    Done waiting for all views to stop loading
+[42.928][FINER]:    Waiting for all views to stop loading...
+[42.928][FINER]:    Done waiting for all views to stop loading
+[42.928][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730959/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Download"
+}
+
+[42.931][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730960/attribute/href)
+[42.931][FINER]:    Waiting for all views to stop loading...
+[42.934][FINER]:    Done waiting for all views to stop loading
+[42.950][FINER]:    Waiting for all views to stop loading...
+[42.951][FINER]:    Done waiting for all views to stop loading
+[42.951][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730960/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/"
+}
+
+[42.953][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730961/attribute/href)
+[42.953][FINER]:    Waiting for all views to stop loading...
+[42.957][FINER]:    Done waiting for all views to stop loading
+[42.971][FINER]:    Waiting for all views to stop loading...
+[42.972][FINER]:    Done waiting for all views to stop loading
+[42.972][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730961/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/search.html"
+}
+
+[42.977][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730962/attribute/href)
+[42.977][FINER]:    Waiting for all views to stop loading...
+[42.978][FINER]:    Done waiting for all views to stop loading
+[42.995][FINER]:    Waiting for all views to stop loading...
+[42.995][FINER]:    Done waiting for all views to stop loading
+[42.995][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730962/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": null
+}
+
+[42.997][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730963/attribute/href)
+[42.997][FINER]:    Waiting for all views to stop loading...
+[42.997][FINER]:    Done waiting for all views to stop loading
+[43.010][FINER]:    Waiting for all views to stop loading...
+[43.011][FINER]:    Done waiting for all views to stop loading
+[43.011][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730963/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": null
+}
+
+[43.013][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730964/attribute/href)
+[43.014][FINER]:    Waiting for all views to stop loading...
+[43.014][FINER]:    Done waiting for all views to stop loading
+[43.029][FINER]:    Waiting for all views to stop loading...
+[43.029][FINER]:    Done waiting for all views to stop loading
+[43.029][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730964/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://www.springsource.com/"
+}
+
+[43.035][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730965/attribute/href)
+[43.035][FINER]:    Waiting for all views to stop loading...
+[43.035][FINER]:    Done waiting for all views to stop loading
+[43.049][FINER]:    Waiting for all views to stop loading...
+[43.050][FINER]:    Done waiting for all views to stop loading
+[43.050][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730965/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://www.springsource.com/"
+}
+
+[43.052][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730966/attribute/href)
+[43.052][FINER]:    Waiting for all views to stop loading...
+[43.052][FINER]:    Done waiting for all views to stop loading
+[43.069][FINER]:    Waiting for all views to stop loading...
+[43.070][FINER]:    Done waiting for all views to stop loading
+[43.070][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730966/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Training+Events"
+}
+
+[43.078][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730967/attribute/href)
+[43.079][FINER]:    Waiting for all views to stop loading...
+[43.079][FINER]:    Done waiting for all views to stop loading
+[43.103][FINER]:    Waiting for all views to stop loading...
+[43.103][FINER]:    Done waiting for all views to stop loading
+[43.103][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730967/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/News"
+}
+
+[43.109][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730968/attribute/href)
+[43.109][FINER]:    Waiting for all views to stop loading...
+[43.110][FINER]:    Done waiting for all views to stop loading
+[43.125][FINER]:    Waiting for all views to stop loading...
+[43.125][FINER]:    Done waiting for all views to stop loading
+[43.125][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730968/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/FAQ"
+}
+
+[43.127][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730969/attribute/href)
+[43.127][FINER]:    Waiting for all views to stop loading...
+[43.128][FINER]:    Done waiting for all views to stop loading
+[43.141][FINER]:    Waiting for all views to stop loading...
+[43.141][FINER]:    Done waiting for all views to stop loading
+[43.142][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730969/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Roadmap"
+}
+
+[43.144][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730970/attribute/href)
+[43.144][FINER]:    Waiting for all views to stop loading...
+[43.147][FINER]:    Done waiting for all views to stop loading
+[43.169][FINER]:    Waiting for all views to stop loading...
+[43.169][FINER]:    Done waiting for all views to stop loading
+[43.169][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730970/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Eclipse+Plugin"
+}
+
+[43.173][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730971/attribute/href)
+[43.173][FINER]:    Waiting for all views to stop loading...
+[43.173][FINER]:    Done waiting for all views to stop loading
+[43.186][FINER]:    Waiting for all views to stop loading...
+[43.186][FINER]:    Done waiting for all views to stop loading
+[43.186][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730971/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Books"
+}
+
+[43.188][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730972/attribute/href)
+[43.188][FINER]:    Waiting for all views to stop loading...
+[43.188][FINER]:    Done waiting for all views to stop loading
+[43.202][FINER]:    Waiting for all views to stop loading...
+[43.203][FINER]:    Done waiting for all views to stop loading
+[43.203][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730972/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://www.manning.com/koenig2/"
+}
+
+[43.205][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730973/attribute/href)
+[43.205][FINER]:    Waiting for all views to stop loading...
+[43.205][FINER]:    Done waiting for all views to stop loading
+[43.222][FINER]:    Waiting for all views to stop loading...
+[43.223][FINER]:    Done waiting for all views to stop loading
+[43.223][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730973/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://www.amazon.com/gp/product/1932394842?ie=UTF8&tag=httpgroovycan-20&linkCode=as2&camp=1789&c..."
+}
+
+[43.226][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730974/attribute/href)
+[43.226][FINER]:    Waiting for all views to stop loading...
+[43.226][FINER]:    Done waiting for all views to stop loading
+[43.239][FINER]:    Waiting for all views to stop loading...
+[43.240][FINER]:    Done waiting for all views to stop loading
+[43.240][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730974/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "https://www.packtpub.com/groovy-for-domain-specific-languages-dsl/book"
+}
+
+[43.246][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730975/attribute/href)
+[43.246][FINER]:    Waiting for all views to stop loading...
+[43.247][FINER]:    Done waiting for all views to stop loading
+[43.266][FINER]:    Waiting for all views to stop loading...
+[43.267][FINER]:    Done waiting for all views to stop loading
+[43.267][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730975/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://www.amazon.com/Groovy-Domain-Specific-Languages-Fergal-Dearle/dp/184719690X/"
+}
+
+[43.273][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730976/attribute/href)
+[43.273][FINER]:    Waiting for all views to stop loading...
+[43.273][FINER]:    Done waiting for all views to stop loading
+[43.287][FINER]:    Waiting for all views to stop loading...
+[43.288][FINER]:    Done waiting for all views to stop loading
+[43.288][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730976/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Chinese+Home"
+}
+
+[43.294][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730977/attribute/href)
+[43.294][FINER]:    Waiting for all views to stop loading...
+[43.295][FINER]:    Done waiting for all views to stop loading
+[43.316][FINER]:    Waiting for all views to stop loading...
+[43.317][FINER]:    Done waiting for all views to stop loading
+[43.317][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730977/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Korean+Home"
+}
+
+[43.322][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730978/attribute/href)
+[43.322][FINER]:    Waiting for all views to stop loading...
+[43.322][FINER]:    Done waiting for all views to stop loading
+[43.336][FINER]:    Waiting for all views to stop loading...
+[43.336][FINER]:    Done waiting for all views to stop loading
+[43.336][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730978/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Portuguese+Home"
+}
+
+[43.339][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730979/attribute/href)
+[43.339][FINER]:    Waiting for all views to stop loading...
+[43.340][FINER]:    Done waiting for all views to stop loading
+[43.364][FINER]:    Waiting for all views to stop loading...
+[43.364][FINER]:    Done waiting for all views to stop loading
+[43.364][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730979/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://groovy.codehaus.org/Japanese+Home"
+}
+
+[43.367][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730980/attribute/href)
+[43.367][FINER]:    Waiting for all views to stop loading...
+[43.367][FINER]:    Done waiting for all views to stop loading
+[43.382][FINER]:    Waiting for all views to stop loading...
+[43.383][FINER]:    Done waiting for all views to stop loading
+[43.383][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730980/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://docs.codehaus.org/spaces/rss.action?key=GROOVY&newPages=false"
+}
+
+[43.385][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730981/attribute/href)
+[43.385][FINER]:    Waiting for all views to stop loading...
+[43.386][FINER]:    Done waiting for all views to stop loading
+[43.406][FINER]:    Waiting for all views to stop loading...
+[43.406][FINER]:    Done waiting for all views to stop loading
+[43.406][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730981/attribute/href) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "http://docs.codehaus.org/spaces/blogrss.action?key=GROOVY"
+}
+
+[43.410][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730915/click) with params {
+   "id": ":wdc:1364401730915"
+}
+
+[43.410][FINER]:    Waiting for all views to stop loading...
+[43.410][FINER]:    Done waiting for all views to stop loading
+[43.457][WARNING]:  Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <img src="http://groovy.codehaus.org/download/attachments/1866/download-icon.png?version=1 modificationDate=1197220874643">
+[43.470][FINER]:    Waiting for all views to stop loading...
+[60.017][FINER]:    Done waiting for all views to stop loading
+[60.018][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401730915/click) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[60.020][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/title)
+[60.020][FINER]:    Waiting for all views to stop loading...
+[60.020][FINER]:    Done waiting for all views to stop loading
+[60.023][FINER]:    Waiting for all views to stop loading...
+[60.023][FINER]:    Done waiting for all views to stop loading
+[60.023][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/title) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "Groovy - Download"
+}
+
+[60.027][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element) with params {
+   "using": "tag name",
+   "value": "html"
+}
+
+[60.027][FINER]:    Waiting for all views to stop loading...
+[60.028][FINER]:    Done waiting for all views to stop loading
+[60.033][FINER]:    Waiting for all views to stop loading...
+[60.033][FINER]:    Done waiting for all views to stop loading
+[60.033][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364401749259"
+   }
+}
+
+[60.058][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401749259/elements) with params {
+   "id": ":wdc:1364401749259",
+   "using": "css selector",
+   "value": "h3#Download-Groovy212"
+}
+
+[60.058][FINER]:    Waiting for all views to stop loading...
+[60.058][FINER]:    Done waiting for all views to stop loading
+[60.075][FINER]:    Waiting for all views to stop loading...
+[60.075][FINER]:    Done waiting for all views to stop loading
+[60.076][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401749259/elements) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364401749260"
+   } ]
+}
+
+[60.080][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401749260/text)
+[60.080][FINER]:    Waiting for all views to stop loading...
+[60.080][FINER]:    Done waiting for all views to stop loading
+[60.099][FINER]:    Waiting for all views to stop loading...
+[60.099][FINER]:    Done waiting for all views to stop loading
+[60.099][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/element/:wdc:1364401749260/text) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": "Groovy 2.1.2"
+}
+
+[60.113][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77/cookie)
+[60.113][FINER]:    Waiting for all views to stop loading...
+[60.113][FINER]:    Done waiting for all views to stop loading
+[60.116][FINER]:    Waiting for all views to stop loading...
+[60.116][FINER]:    Done waiting for all views to stop loading
+[60.116][FINE]:     Command finished (/session/1b76346b545ec7fec4c7decdbdd2ee77/cookie) with response {
+   "sessionId": "1b76346b545ec7fec4c7decdbdd2ee77",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[60.121][FINE]:     Command received (/session/1b76346b545ec7fec4c7decdbdd2ee77)
+[60.201][INFO]:     Chrome shutdown

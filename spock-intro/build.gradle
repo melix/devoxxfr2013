@@ -1,0 +1,86 @@
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+sourceCompatibility = langLevel
+targetCompatibility = langLevel
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'http://oss.sonatype.org/content/repositories/snapshots/'
+    }
+}
+
+dependencies {
+    def groovyVersion = "2.1.2"
+    def spockVersion = "1.0-groovy-2.0-SNAPSHOT"
+    def gebVersion = "0.9.0-RC-1"
+    def seleniumVersion = "2.15.0"
+
+    groovy "org.codehaus.groovy:groovy-all:$groovyVersion"
+    testCompile "org.spockframework:spock-core:$spockVersion"
+    testRuntime 'cglib:cglib-nodep:2.2'
+
+    // geb
+    testCompile "org.gebish:geb-spock:$gebVersion"
+    testCompile "org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion"
+    testRuntime "org.seleniumhq.selenium:selenium-support:$seleniumVersion"
+}
+
+
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url = 'http://oss.sonatype.org/content/repositories/snapshots/'
+        }
+    }
+    dependencies {
+        classpath "org.spockframework:spock-report:1.0-groovy-1.8-SNAPSHOT"
+    }
+}
+
+
+idea {
+    project {
+        jdkName = langLevel
+        languageLevel = langLevel
+    }
+}
+
+// Custom test report for the new style Spock reports
+ext.spockLogFileDir = file("$buildDir/spock/logFiles")
+ext.configFile = file("SpockReportConfig.groovy")
+
+test {
+    systemProperty "spock.configuration", configFile
+    systemProperty "spock.logFileDir", spockLogFileDir
+
+    ignoreFailures = true
+
+    doFirst {
+        delete spockLogFileDir
+    }
+}
+
+task testReport(dependsOn: test) {
+    doFirst {
+        Set files = spockLogFileDir.listFiles()
+        def reportDir = file("$buildDir/reports/spock")
+        new org.spockframework.report.HtmlReportGenerator().with {
+            reportName = 'Devoxx France 2013 - Spock'
+            reportFileName = 'index.html'
+            logFiles = files
+            outputDirectory = reportDir
+            local = false
+            debug = false
+            generate()
+        }
+        println "See Spock report at ${org.spockframework.util.ConsoleUtil.asClickableFileUrl(new File(reportDir,'index.html'))}"
+    }
+}
+
+// ---------------------------------- Wrapper task
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.5-rc-2'
+}
